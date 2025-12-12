@@ -1,0 +1,16 @@
+﻿  Application.cpp
+E:\Education\Coding Projects\Games\HazelCodeAlong\src\Hazel\Application.cpp(5,15): warning C4273: 'Hazel::Application::Application': inconsistent dll linkage
+      E:\Education\Coding Projects\Games\HazelCodeAlong\src\Hazel\Application.h(11,3):
+      see previous definition of 'Hazel::Application::Application'
+  
+E:\Education\Coding Projects\Games\HazelCodeAlong\src\Hazel\Application.cpp(9,16): warning C4273: 'Hazel::Application::~Application': inconsistent dll linkage
+      E:\Education\Coding Projects\Games\HazelCodeAlong\src\Hazel\Application.h(12,12):
+      see previous definition of 'Hazel::Application::~Application'
+  
+E:\Education\Coding Projects\Games\HazelCodeAlong\src\Hazel\Application.cpp(13,20): warning C4273: 'Hazel::Application::Run': inconsistent dll linkage
+      E:\Education\Coding Projects\Games\HazelCodeAlong\src\Hazel\Application.h(14,8):
+      see previous definition of 'Hazel::Application::Run'
+  
+     Creating library E:\Education\Coding Projects\Games\HazelCodeAlong\bin\Debug-x64\HazelCodeAlong\HazelCodeAlong.lib and object E:\Education\Coding Projects\Games\HazelCodeAlong\bin\Debug-x64\HazelCodeAlong\HazelCodeAlong.exp
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) const Hazel::Application::`vftable'" (__imp_??_7Application@Hazel@@6B@) referenced in function "public: __cdecl Hazel::Application::Application(void)" (??0Application@Hazel@@QEAA@XZ)
+E:\Education\Coding Projects\Games\HazelCodeAlong\bin\Debug-x64\HazelCodeAlong\HazelCodeAlong.dll : fatal error LNK1120: 1 unresolved externals
