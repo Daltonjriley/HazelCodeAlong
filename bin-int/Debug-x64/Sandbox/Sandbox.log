@@ -1,2 +1,12 @@
 ﻿  Sandbox.cpp
-  Sandbox.vcxproj -> E:\Education\Coding Projects\Games\HazelCodeAlong\bin\Debug-x64\Sandbox\Sandbox.exe
+C:\dev\HazelCodeAlong\src\Hazel\Log.h(22,42): warning C4251: 'Hazel::Log::s_CoreLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Hazel::Log'
+  (compiling source file 'src/Sandbox.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(1588,7):
+      see declaration of 'std::shared_ptr<spdlog::logger>'
+  
+C:\dev\HazelCodeAlong\src\Hazel\Log.h(23,42): warning C4251: 'Hazel::Log::s_ClientLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Hazel::Log'
+  (compiling source file 'src/Sandbox.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(1588,7):
+      see declaration of 'std::shared_ptr<spdlog::logger>'
+  
+  Sandbox.vcxproj -> C:\dev\HazelCodeAlong\bin\Debug-x64\Sandbox\Sandbox.exe
